@@ -1,0 +1,55 @@
+body {
+    background: #171717
+}
+
+@font-face {
+    font-family: Handlee Regular;
+    src: url('Handlee-Regular.ttf');  
+}
+
+td {
+    border-bottom:1pt solid #909090;
+    padding-top: 8px;
+    width: 210px;
+}
+
+.postcard {
+    width: 480px;
+    height: 350px;
+    background: white;
+    margin: 14% auto;
+    font-family: Handlee Regular;   
+}
+
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 50%;
+    margin: 10px; 
+}
+
+.icon {
+    width: 60px;
+    margin-left: 160px;
+
+}
+
+.table {
+    color: #909090;
+    font-size: 18px;
+}
+
+.btn-cont{
+    text-align: center;
+}
+
+.btn{
+	padding: 4px;
+	background: #c0c0c0;
+	text-decoration: none;
+    color: black;
+    border: 1px solid; 
+    border-color: #c0c0c0 #c0c0c0 #909090 #c0c0c0; 
+}
